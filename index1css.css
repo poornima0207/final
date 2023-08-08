@@ -1,0 +1,328 @@
+.seca
+{   
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    justify-content: center;
+    padding: 100px;
+    align-items: center;
+    text-align: center;
+    font-weight: bolder;
+    background: url("https://wallpapers.com/images/high/assorted-dictionary-reference-books-7ntc0w0ule46ejh5.webp");
+    color: white;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.secb
+{
+    background-color: black;
+}
+main
+{
+    align-items: center;
+}
+
+main h1{
+    justify-content: center;
+   
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size:50px;
+    font-weight: bolder;
+    color: white;
+   
+}
+.book-img{
+    height: 100px;
+    width: 100px;
+}
+.img{
+    height: 100px;
+    width: 100px;
+}
+.first{
+    display: grid;
+    grid-template-rows: auto;
+    grid-template-columns: auto auto auto;
+    justify-content:space-around;
+    
+    padding-top: 50px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bolder;
+    font-size: 160px;
+    color: black;
+}
+#user_input
+{
+    width: 350px;
+    height: 40px;
+    border-radius: 20px;
+    background-color:white;
+    color: black;
+    border-color: solid red;
+    box-shadow: red;
+}
+.second
+{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    color: black;
+}
+label{
+    font-family:cursive;
+    font-size: 30px;
+    font-weight: 800;
+    align-content: center;
+    padding-right: 70px;
+    border-radius: 15px;
+}
+.second #search
+{
+    width: 40px;
+   height: 40px;
+    padding-left: 10px;
+    border-radius: 50%;   
+
+}
+#btn
+{
+   width: 100px;
+   height: 50px;
+   margin-left: 200px;
+
+
+
+}
+/*.btn-circle.btn-xl {
+    width: 50px;
+    height: 50px;
+    padding: 8px 12px;
+    border-radius: 35px;
+    font-size: 24px;
+    line-height: 1.33;
+}*/
+.container
+{
+    /*display: flex;
+    justify-content:space-between;
+    flex-wrap: wrap;*/
+    display: grid;
+    grid-template-rows: auto auto;
+    justify-content: center;
+    row-gap: 20px;
+    
+    padding-top: 50px;
+    padding-left:30px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bolder;
+
+}
+.container h2{
+    font-size: 50px;
+}
+#search2nd
+{
+    width:150px;
+    height: 60px;
+    font-size: 30px;
+    margin-left:200px ;
+}
+#search3rd{
+    margin-bottom: 15px;
+}
+
+.details {
+    padding: 2px 2px;
+    color: black;
+    text-shadow: 1px 1px #bbb;
+    text-align: center;
+  }
+  
+  
+  #card-container
+  {
+    display: flex;
+    justify-content: center;
+    padding-top: 10px 10px;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 10px;
+    }
+  .card{
+      height: 500px;
+      width: 400px;
+      transition: 2s;
+      box-shadow: 0px 10px 24px 0px rgba(0, 0, 0, 0.75);
+     text-align: center;
+     padding: 2px 2px;
+    color: black;
+    text-shadow: 1px 1px #bbb;
+    text-align: center;
+    display: flex;
+  justify-content: center;
+  padding-top: 10px 10px;
+  flex-wrap: wrap;
+  align-items: center;
+
+  }
+  #forsearch{
+    width:200px;
+    height: 40px;
+    border-radius: 20px;
+    background-color:white;
+    margin-bottom: 15px;margin-right: 10px;
+    color:black;
+    
+  }
+  .card {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+h2 {
+    font-size: 20px;
+    margin-bottom: 5px;
+    color: White;
+}
+
+p {
+    font-size: 14px;
+    margin-bottom: 0;
+}
+.container1{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    color: white;
+}
+.container2{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: right;
+
+}
+.sectionforSearch{
+    background-image: url("https://png.pngtree.com/thumb_back/fh260/background/20220228/pngtree-open-book-dictionary-with-loupe-closeup-dictionary-reading-institution-photo-image_12424660.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 10px;
+    width: 600px;
+    height: 500px;
+    justify-content: space-evenly;
+    margin-left: 400px;
+    border-radius: 30px;
+    box-shadow:whitesmoke;
+}
+@media screen and (max-width: 768px) {
+    .sectionforSearch {
+      width: 100%;
+      margin: 0 auto;
+      max-width: 600px;
+    }
+  
+    .sectionforSearch form {
+      display: flex;
+      flex-direction: column;
+      align-items: center; 
+    }
+  
+    .search-container {
+      width: 100%;
+      max-width: 350px;
+      display: flex;
+      flex-direction: row; 
+      align-items: center; 
+    }
+  
+    .search-input {
+      flex: 1; 
+      padding: 8px;
+      border: none;
+      border-radius: 4px;
+      font-size: 16px;
+      max-width: 250px;
+    }
+  
+    .search-button {
+      width: 40px;
+      height: 40px;
+      border-radius: 50%;
+      border: none;
+      background: radial-gradient(circle, #05101c, #0056b3);
+      color: white;
+      font-size: 20px;
+      cursor: pointer;
+      margin-left: 10px;
+    }
+  
+    #btn {
+      margin-left: 0;
+    }
+  
+    
+    label {
+      font-size: 20px;
+      padding-right: 0;
+    }
+  }
+  
+  
+  @media screen and (min-width: 769px) {
+    .sectionforSearch {
+      width: 600px;
+      margin: 0 auto;
+    }
+  
+    .sectionforSearch form {
+      flex-direction: row; 
+    }
+  
+    .search-input {
+      max-width: 350px; 
+    }
+  }
+  @media screen and (max-width: 500px) {
+    .sectionforSearch {
+     display: none;
+     
+    }
+  
+  
+  }
+  @media screen and (max-width: 300px) {
+    #card-container {
+     display: none;
+     
+    }
+  
+  
+  }
+  footer
+  {
+    background-color: #bbb;
+    color: black;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    margin-top: 10px;
+  }
+
+
+ footer a img{
+  width: 30px;
+  height: 30px;
+
+}
+footer a{
+  margin: 10px;
+}
+ footer a :hover{
+    width: 25px;
+    height: 25px;
+}
+
+  
+  
